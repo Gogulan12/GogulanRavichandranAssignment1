@@ -1,0 +1,790 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+// * {
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+//   border: 1px solid pink;
+// }
+
+.wrapper {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+// **************HEADER SECTION*********************
+
+// font-family: 'Cormorant Garamond', serif;
+// font-family: 'Fredericka the Great', cursive;
+// font-family: 'Roboto', sans-serif;
+
+header {
+  background-image: url("../animal-land-assets/image-1.jpg");
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h1 {
+    font-family: "Fredericka the Great", cursive;
+    color: #fcfcfc;
+    font-size: 120px;
+    text-transform: uppercase;
+    text-align: right;
+    width: 100%;
+    line-height: 117px;
+    font-weight: 100;
+  }
+}
+
+nav ul {
+  display: flex;
+  li {
+    padding: 20px 20px 0 0;
+    list-style: none;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    a {
+      color: #fcfcfc;
+      text-decoration: none;
+    }
+  }
+}
+
+.name {
+  margin-top: 100px;
+}
+
+.social-media ul {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+  li {
+    padding: 10px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.burger {
+  display: none;
+}
+
+// **************MAIN SECTION*********************
+
+main {
+  background-color: #152d20;
+}
+
+// **************MAIN - Suzzie SECTION*********************
+
+.suzie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suzie-img {
+  display: flex;
+  width: 100%;
+  img {
+    display: block;
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.suzie-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  h2 {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 51px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #fcfcfc;
+    line-height: 29px;
+  }
+
+  button {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: #152d20;
+    background-color: #fcfcfc;
+    padding: 15px 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 200px;
+  }
+}
+
+// **************MAIN - animal SECTION*********************
+
+.animals {
+  background-color: #c3d3cb;
+}
+
+.animal-title {
+  display: flex;
+  justify-content: center;
+}
+
+.animals h2 {
+  display: inline-block;
+  // width: 700px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 51px;
+  color: #152d20;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.animals h2 span {
+  display: block;
+}
+
+.animal-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  img {
+    width: 30vh;
+    height: 30vh;
+  }
+}
+
+// **************MAIN - options SECTION*********************
+
+.icon-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 0;
+}
+
+.icon-list li {
+  list-style: none;
+  text-align: center;
+}
+
+.icon-list li img {
+  height: 80px;
+  width: 80px;
+}
+
+.icon-list li h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100;
+  width: 250px;
+  padding-top: 20px;
+}
+
+.icon-list li .paw {
+  padding-top: 5px;
+}
+
+// **************MAIN - Learn More SECTION*********************
+
+.learn-more {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #fcfcfc;
+}
+
+.zebra {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.bonding {
+  display: flex;
+  width: 100%;
+}
+
+.zebra-pic,
+.zebra-info,
+.bonding-pic,
+.bonding-info {
+  width: 50%;
+}
+
+.zebra-pic img,
+.bonding-pic img {
+  display: block;
+  width: 100%;
+}
+
+.zebra-info,
+.bonding-info {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
+  color: #152d20;
+}
+
+.zebra-info:hover,
+.bonding-info:hover {
+  background-color: #fcfcfc;
+}
+
+.z-text h2,
+.b-text h2 {
+  font-size: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.z-text h2 span,
+.b-text h2 span {
+  display: block;
+}
+
+.z-text button,
+.b-text button {
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: #fcfcfc;
+  background-color: #152d20;
+  padding: 15px 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.z-text,
+.b-text {
+  margin: 0 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// **************MAIN - contact SECTION*********************
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0;
+}
+
+// .contact .bottom-gallery,
+// .contact .address {
+//   width: 30%;
+// }
+
+.contact .updates {
+  width: 50%;
+}
+
+.bottom-gallery {
+  margin-right: 100px;
+}
+
+.bottom-gallery ul {
+  list-style: none;
+}
+
+.bottom-gallery ul li {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.updates {
+  text-align: center;
+}
+
+.updates h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 100;
+}
+
+.updates p {
+  color: #fcfcfc;
+}
+
+.updates .subscribers {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.updates .subscribers input {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+
+.updates .subscribers a {
+  color: #fcfcfc;
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.address {
+  text-align: right;
+}
+
+.address h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+
+.address ul {
+  list-style: none;
+  color: #fcfcfc;
+}
+
+// **************FOOTER - SECTION***************************
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: #fcfcfc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+// ***************MEDIA QUERY ******************************
+
+@media (max-width: 920px) {
+  header {
+    height: 100vh;
+    background-position: bottom;
+  }
+  .social-media {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .name {
+    margin-top: 20px;
+  }
+  .name h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+
+  // *********SUZIE Section *******************
+
+  .suzie {
+    flex-direction: column;
+  }
+
+  .suzie-img {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .suzie-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .suzie-story {
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .suzie-story p {
+    padding: 20px 0;
+  }
+
+  .read-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  // ****************animal section *******************
+
+  .animal-list img {
+    width: 30vh;
+    height: 30vh;
+  }
+
+  .animal-list .animal-3 {
+    display: none;
+  }
+
+  //******************options section **************
+
+  .icon-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .icon-list img {
+    display: block;
+    justify-content: center;
+    margin-left: 33%;
+  }
+
+  .icon-list h3 {
+    text-align: center;
+  }
+
+  // ******************Learn More Section *************
+
+  .zebra {
+    flex-direction: column;
+  }
+
+  .bonding {
+    flex-direction: column;
+  }
+
+  .zebra-pic,
+  .zebra-info,
+  .bonding-pic,
+  .bonding-info {
+    width: 100%;
+    // height: 100%;
+  }
+
+  .zebra-pic img,
+  .bonding-pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+
+  .zebra-info,
+  .bonding-info {
+    height: 50vh;
+  }
+  .z-text,
+  .b-text {
+    height: 80%;
+    text-align: center;
+  }
+
+  // ***********Contact Section************
+
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bottom-gallery {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .bottom-gallery ul {
+    display: flex;
+  }
+
+  .bottom-gallery ul li {
+    padding: 0 20px;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .contact .updates {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+
+  .subscribers {
+    flex-direction: column;
+  }
+
+  .subscribers input {
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .animal-list img {
+    width: 18vh;
+    height: 18vh;
+  }
+}

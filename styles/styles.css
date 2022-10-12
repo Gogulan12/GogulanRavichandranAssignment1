@@ -1,0 +1,627 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../animal-land-assets/image-1.jpg");
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header h1 {
+  font-family: "Fredericka the Great", cursive;
+  color: #fcfcfc;
+  font-size: 120px;
+  text-transform: uppercase;
+  text-align: right;
+  width: 100%;
+  line-height: 117px;
+  font-weight: 100;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li {
+  padding: 20px 20px 0 0;
+  list-style: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+nav ul li a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.name {
+  margin-top: 100px;
+}
+
+.social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+}
+.social-media ul li {
+  padding: 10px;
+}
+.social-media ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.burger {
+  display: none;
+}
+
+main {
+  background-color: #152d20;
+}
+
+.suzie {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.suzie-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.suzie-img img {
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 300px;
+  height: 300px;
+}
+
+.suzie-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+}
+.suzie-story h2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 51px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.suzie-story p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fcfcfc;
+  line-height: 29px;
+}
+.suzie-story button {
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: #152d20;
+  background-color: #fcfcfc;
+  padding: 15px 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.animals {
+  background-color: #c3d3cb;
+}
+
+.animal-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animals h2 {
+  display: inline-block;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 51px;
+  color: #152d20;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.animals h2 span {
+  display: block;
+}
+
+.animal-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 100px;
+}
+.animal-list img {
+  width: 30vh;
+  height: 30vh;
+}
+
+.icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 70px 0;
+}
+
+.icon-list li {
+  list-style: none;
+  text-align: center;
+}
+
+.icon-list li img {
+  height: 80px;
+  width: 80px;
+}
+
+.icon-list li h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100;
+  width: 250px;
+  padding-top: 20px;
+}
+
+.icon-list li .paw {
+  padding-top: 5px;
+}
+
+.learn-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fcfcfc;
+}
+
+.zebra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+}
+
+.bonding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.zebra-pic,
+.zebra-info,
+.bonding-pic,
+.bonding-info {
+  width: 50%;
+}
+
+.zebra-pic img,
+.bonding-pic img {
+  display: block;
+  width: 100%;
+}
+
+.zebra-info,
+.bonding-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  opacity: 0.8;
+  color: #152d20;
+}
+
+.zebra-info:hover,
+.bonding-info:hover {
+  background-color: #fcfcfc;
+}
+
+.z-text h2,
+.b-text h2 {
+  font-size: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.z-text h2 span,
+.b-text h2 span {
+  display: block;
+}
+
+.z-text button,
+.b-text button {
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: #fcfcfc;
+  background-color: #152d20;
+  padding: 15px 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.z-text,
+.b-text {
+  margin: 0 20%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.contact .updates {
+  width: 50%;
+}
+
+.bottom-gallery {
+  margin-right: 100px;
+}
+
+.bottom-gallery ul {
+  list-style: none;
+}
+
+.bottom-gallery ul li {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.updates {
+  text-align: center;
+}
+
+.updates h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 100;
+}
+
+.updates p {
+  color: #fcfcfc;
+}
+
+.updates .subscribers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.updates .subscribers input {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+
+.updates .subscribers a {
+  color: #fcfcfc;
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.address {
+  text-align: right;
+}
+
+.address h3 {
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+
+.address ul {
+  list-style: none;
+  color: #fcfcfc;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: #fcfcfc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 920px) {
+  header {
+    height: 100vh;
+    background-position: bottom;
+  }
+  .social-media {
+    display: none;
+  }
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .name {
+    margin-top: 20px;
+  }
+  .name h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: left;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: none;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+  .suzie {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .suzie-img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .suzie-img img {
+    width: 100%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .suzie-story {
+    margin: 0;
+    padding-top: 30px;
+  }
+  .suzie-story p {
+    padding: 20px 0;
+  }
+  .read-button {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 30px 0;
+  }
+  .animal-list img {
+    width: 30vh;
+    height: 30vh;
+  }
+  .animal-list .animal-3 {
+    display: none;
+  }
+  .icon-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .icon-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .icon-list img {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 33%;
+  }
+  .icon-list h3 {
+    text-align: center;
+  }
+  .zebra {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bonding {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .zebra-pic,
+.zebra-info,
+.bonding-pic,
+.bonding-info {
+    width: 100%;
+  }
+  .zebra-pic img,
+.bonding-pic img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+  .zebra-info,
+.bonding-info {
+    height: 50vh;
+  }
+  .z-text,
+.b-text {
+    height: 80%;
+    text-align: center;
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .bottom-gallery {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+  .bottom-gallery ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bottom-gallery ul li {
+    padding: 0 20px;
+  }
+  .address {
+    text-align: center;
+  }
+  .contact .updates {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+  .subscribers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscribers input {
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .animal-list img {
+    width: 18vh;
+    height: 18vh;
+  }
+}
